@@ -101,7 +101,7 @@ Project1::ProductRack::deliverProduct()
     	if(!deliveryChute.containsProduct()){
     		//try insering product in chute
     		if(deliveryChute.insertProduct(products[productCount])){
-    			//product Delivered to chute,so rack doesn't have product anymore,
+    			//product Delivered to chute,so rack doesn't have product anymore,null it
     			products[productCount] = 0;
     			// decrement product count in the rack by 1
 				productCount--;
