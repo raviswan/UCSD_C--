@@ -37,7 +37,7 @@ Project1::Coin::getDenomination() const
 unsigned
 Project1::Coin::getValueCents() const
 {
-	//Local variable to store the denomination value in cents
+	//Local variable that has denomination in cents
 	unsigned valCents = 0;
 	switch(denomination){
 	case COINTYPE_PENNY:
